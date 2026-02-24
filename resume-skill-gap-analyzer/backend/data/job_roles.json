@@ -1,0 +1,114 @@
+{
+  "Data Scientist": {
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "SQL",
+      "Statistics"
+    ],
+    "nice_to_have": [
+      "TensorFlow",
+      "Deep Learning",
+      "R",
+      "Spark",
+      "Data Visualization",
+      "Matplotlib",
+      "Keras"
+    ]
+  },
+  "Full Stack Developer": {
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "REST API",
+      "SQL",
+      "Git",
+      "HTML",
+      "CSS"
+    ],
+    "nice_to_have": [
+      "TypeScript",
+      "Docker",
+      "MongoDB",
+      "GraphQL",
+      "Next.js",
+      "Testing"
+    ]
+  },
+  "Backend Developer": {
+    "required_skills": [
+      "Python",
+      "REST API",
+      "SQL",
+      "Git",
+      "Docker"
+    ],
+    "nice_to_have": [
+      "Kubernetes",
+      "Redis",
+      "Microservices",
+      "CI/CD",
+      "PostgreSQL",
+      "Linux"
+    ]
+  },
+  "ML Engineer": {
+    "required_skills": [
+      "Python",
+      "TensorFlow",
+      "Scikit-learn",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "nice_to_have": [
+      "Kubernetes",
+      "AWS",
+      "MLflow",
+      "Spark",
+      "PyTorch",
+      "Deep Learning"
+    ]
+  },
+  "DevOps Engineer": {
+    "required_skills": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS",
+      "Linux",
+      "Git",
+      "Terraform"
+    ],
+    "nice_to_have": [
+      "Ansible",
+      "Jenkins",
+      "Python",
+      "Monitoring",
+      "Azure",
+      "GCP"
+    ]
+  },
+  "Frontend Developer": {
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Git",
+      "REST API"
+    ],
+    "nice_to_have": [
+      "TypeScript",
+      "Webpack",
+      "Testing",
+      "Vue",
+      "Next.js",
+      "Tailwind CSS"
+    ]
+  }
+}

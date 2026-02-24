@@ -1,0 +1,94 @@
+================================================================================
+                             RESUME — ALEX JOHNSON
+================================================================================
+
+CONTACT INFORMATION
+-------------------
+Name:     Alex Johnson
+Email:    alex.johnson@email.com
+Phone:    (555) 123-4567
+Location: San Francisco, CA
+LinkedIn: linkedin.com/in/alexjohnson
+GitHub:   github.com/alexjohnson
+
+================================================================================
+
+PROFESSIONAL SUMMARY
+--------------------
+Data Scientist with 3+ years of experience building machine learning models
+and data pipelines. Skilled in Python, statistical analysis, and turning
+complex datasets into actionable business insights. Passionate about
+applying deep learning and NLP techniques to solve real-world problems.
+
+================================================================================
+
+TECHNICAL SKILLS
+----------------
+Languages:   Python, SQL, R, JavaScript
+ML/AI:       Machine Learning, Scikit-learn, TensorFlow, Pandas, NumPy,
+             Matplotlib, Statistics, Data Science
+Frameworks:  Django, Flask, REST API
+Tools:       Git, Docker, Jupyter Notebook, VS Code
+Databases:   PostgreSQL, MySQL, MongoDB
+Cloud:       AWS, Heroku
+
+================================================================================
+
+WORK EXPERIENCE
+----------------
+
+Data Scientist | TechCorp Inc. | Jan 2022 – Present
+- Built and deployed predictive models using Scikit-learn and TensorFlow
+  that improved customer retention by 18%
+- Developed automated data pipelines with Python and Pandas processing
+  500K+ records daily
+- Created REST API endpoints using Django for serving ML model predictions
+- Collaborated with cross-functional teams using Agile methodology
+- Managed PostgreSQL databases and optimized complex SQL queries
+- Containerized applications with Docker for consistent deployment
+
+Junior Data Analyst | DataWorks LLC | Jun 2020 – Dec 2021
+- Performed exploratory data analysis using Python, Pandas, and NumPy
+- Created interactive dashboards and data visualizations with Matplotlib
+- Wrote complex SQL queries for reporting and business intelligence
+- Assisted in building machine learning models for sales forecasting
+- Used Git for version control and collaborative development
+
+================================================================================
+
+EDUCATION
+---------
+M.S. in Data Science | Stanford University | 2020
+- Thesis: "Applying NLP Techniques to Customer Sentiment Analysis"
+- Relevant Courses: Machine Learning, Deep Learning, Statistics,
+  Natural Language Processing, Computer Vision
+
+B.S. in Computer Science | UC Berkeley | 2018
+- Minor in Mathematics
+- Dean's List, GPA: 3.7/4.0
+
+================================================================================
+
+PROJECTS
+--------
+1. Customer Churn Predictor
+   - Built an end-to-end ML pipeline with Scikit-learn achieving 92% accuracy
+   - Deployed as a REST API using Flask on AWS
+
+2. Sentiment Analysis Engine
+   - NLP-based sentiment classifier using TensorFlow and spaCy
+   - Processed 1M+ social media posts for brand monitoring
+
+3. Real-Time Dashboard
+   - Interactive data visualization dashboard using Python and JavaScript
+   - PostgreSQL backend with REST API integration
+
+================================================================================
+
+CERTIFICATIONS
+--------------
+- AWS Certified Cloud Practitioner
+- Google Data Analytics Professional Certificate
+- Deep Learning Specialization (Coursera)
+
+================================================================================

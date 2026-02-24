@@ -1,0 +1,14 @@
+# Run: pip install -r requirements.txt
+# Then: python -m spacy download en_core_web_sm
+
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+spacy
+requests
+python-dotenv
+PyMuPDF
+python-multipart
+pydantic
