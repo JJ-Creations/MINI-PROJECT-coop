@@ -1,0 +1,23 @@
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: var(--primary);
+    color: var(--text-dark);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    font-family: inherit;
+}
+.submit-btn:hover {
+    background: var(--primary-dark);
+}
+.submit-btn:active {
+    transform: scale(0.98);
+}
+.submit-btn:disabled {
+    background: var(--color-text-secondary);
+    cursor: not-allowed;
+}

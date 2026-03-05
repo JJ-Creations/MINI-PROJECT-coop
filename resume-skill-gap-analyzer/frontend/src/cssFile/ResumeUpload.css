@@ -1,0 +1,55 @@
+.resume-upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.upload-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.upload-box {
+  border: 2px dashed var(--color-border);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #fafafa;
+  margin-bottom:20px;
+}
+
+.upload-box:hover,.upload-box.dragging {
+  border-color: var(--primary);
+  background-color: var(--background);
+}
+
+.upload-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.upload-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.upload-subtext {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.selected-file {
+  margin-top: 12px;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.error-text {
+  margin-top: 10px;
+  color: #dc2626;
+  font-size: 14px;
+}

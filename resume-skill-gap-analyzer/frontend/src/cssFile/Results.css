@@ -1,0 +1,126 @@
+.skill-breakdown,
+.recommendations,
+.ml-insights,
+.github-insights{
+    background: white;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 24px;
+    text-align: left;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    padding-left: 14px;
+    margin-top: 0;
+    margin-bottom:20px;
+}
+
+.recommendation-item {
+    display: flex;
+    align-items:center;
+    background: var(--background);
+    border-radius: 8px;
+    padding: 14px;
+    gap: 14px;
+    box-shadow: var(--shadow);
+    margin-bottom: 12px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.badge-Critical {
+    background: var(--color-missing-bg);
+    color: var(--color-missing);
+}
+
+.badge-Recommended {
+    background: var(--color-claimed-bg);
+    color: var(--color-claimed);
+}
+
+.recommended-hints,
+.metric-label,
+.ml-explanation{
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+.ml-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ml-metric,
+.ml-explanation{
+    background: var(--background);
+    padding:16px;
+    border-radius: 12px;
+    margin-top:10px;
+}
+
+.metric-value{
+    font-size:1.6rem;
+    font-weight: 600;
+    color:var(--primary);
+}
+
+.github-stat{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+.language-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.language-bar-name {
+    min-width: 100px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.language-bar-track {
+    flex: 1;
+    height: 10px;
+    background: var(--background);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.language-bar-fill {
+    background: var(--primary);
+    height:100%;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.language-bar-bytes {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    min-width: 60px;
+    text-align: right;
+}

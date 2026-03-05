@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #2563EB;
+  --primary-dark: #1d4ed8;
+  --secondary: #06B6D4;
+  --background: #e8f3ff;
+  --text-dark: #1E293B;
+  --text-gray:#6b6b6b;
+  --text-light: #FFFFFF;
+  --border-light: #E2E8F0;
+  --color-shadow: rgba(0, 0, 0, .08);
+  --color-border: #e2e8f0;
+  --shadow: 0 1px 3px var(--color-shadow), 0 1px 2px var(--color-shadow);
+  --shadow-lg: 0 4px 12px var(--color-shadow), 0 2px 4px var(--color-shadow);
+  --max-width: 960px;
+
+  --color-excellent: #00bd45;
+  --color-good: #ffe100;
+  --color-fair: #ea580c;
+  --color-poor: #ff0000;
+
+  --color-strong: #16a34a;
+  --color-strong-bg: #dcfce7;
+  --color-claimed: #ca8a04;
+  --color-claimed-bg: #fef9c3;
+  --color-demonstrated: #2563eb;
+  --color-demonstrated-bg: #dbeafe;
+  --color-missing: #dc2626;
+  --color-missing-bg: #fee2e2;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Inter', sans-serif;
+  color: var(--text-dark);
+  text-align: center;
+  display: flex;
+}

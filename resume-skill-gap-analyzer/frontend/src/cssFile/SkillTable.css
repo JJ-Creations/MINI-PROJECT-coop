@@ -1,0 +1,107 @@
+.table-container {
+    overflow-x: auto;
+}
+
+.card{
+    background: var(--background);
+    border-radius:12px;
+    box-shadow: var(--shadow);
+    padding:20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+.skill-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.skill-table th {
+    padding: 12px 14px;
+    background: white;
+    color: var(--text-gray);
+    border-bottom: 2px solid var(--color-border);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.skill-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Fade-in animation for table rows */
+.skill-table tbody tr {
+    opacity: 0;
+    animation: fadeInRow 0.3s ease forwards;
+}
+
+@keyframes fadeInRow {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Status Badges --- */
+
+.badge-strong {
+    background: var(--color-strong-bg);
+    color: var(--color-strong);
+}
+
+.badge-claimed_only {
+    background: var(--color-claimed-bg);
+    color: var(--color-claimed);
+}
+
+.badge-demonstrated_only {
+    background: var(--color-demonstrated-bg);
+    color: var(--color-demonstrated);
+}
+
+.badge-missing {
+    background: var(--color-missing-bg);
+    color: var(--color-missing);
+}
+
+/* Check / X marks */
+.check-mark {
+    color: var(--color-strong);
+    font-weight: 700;
+}
+
+.x-mark {
+    color: var(--color-missing);
+    font-weight: 700;
+}
+
+/* Confidence bar */
+.confidence-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.confidence-bar {
+    flex: 1;
+    height: 8px;
+    background: var(--color-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 100px;
+}
+
+.confidence-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.confidence-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    min-width: 40px;
+}
